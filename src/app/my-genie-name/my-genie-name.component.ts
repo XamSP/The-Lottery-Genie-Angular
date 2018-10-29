@@ -5,7 +5,7 @@ import { Component, OnInit } from '@angular/core';
   templateUrl: './my-genie-name.component.html',
   styleUrls: ['./my-genie-name.component.scss'],
   template: `
-  <input #myInput (keyup)="onKey(myInput.value)">
+  <input #myInput (keyup)="onKey(myInput.value)">  <h4> {{ myInput.value}} </h4>
   `
 })
 export class MyGenieName {
