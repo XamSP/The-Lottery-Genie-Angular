@@ -1,11 +1,11 @@
 <h1>Welcome to The Lottery Genie, Please sign in</h1>
-<form (ngSubmit)="submitForm(myForm)" #myForm="ngForm">
-  <p> Username
-    <input type="text" name="username" [(ngModel)]="username" required />
-  </p>
-  <p> Password
-    <input type="password" name="password" [(ngModel)]="password" required />
-  </p>
-  <button type="submit"> signup </button>
-  <button> Create new account </button>
+<form (ngSubmit)="submitForm(myForm)" #myForm="ngForm" *ngIf="true"></form>>
+<p> Username
+  <input type="text" name="username" [(ngModel)]="username" required />
+</p>
+<p> Password
+  <input type="password" name="password" [(ngModel)]="password" required />
+</p>
+<button type="submit"> signup </button>
+<button> Create new account </button>
 </form>
