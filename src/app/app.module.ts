@@ -5,12 +5,14 @@ import { AppComponent } from './app.component';
 import { FormsModule } from '@angular/forms';
 import { MyGenieName } from './my-genie-name/my-genie-name.component';
 import { MySignupFormComponent } from './my-signup-form/my-signup-form.component';
+import { MyExperiencePointsComponent } from './my-experience-points/my-experience-points.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     MyGenieName,
     MySignupFormComponent,
+    MyExperiencePointsComponent,
   ],
   imports: [
     BrowserModule,
