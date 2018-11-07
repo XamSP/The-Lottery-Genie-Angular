@@ -7,20 +7,21 @@ import { MyGenieName } from './my-genie-name/my-genie-name.component';
 import { MySignupFormComponent } from './my-signup-form/my-signup-form.component';
 import { MyExperiencePointsComponent } from './my-experience-points/my-experience-points.component';
 import { RouterModule, Routes } from '@angular/router';
+import { MyHomeComponent } from './my-home/my-home.component';
+import { MyAboutComponent } from './my-about/my-about.component';
 
-const routes: Routes = [];
-//   { path: '', component: ContactListComponent },
-//   { path: 'home', component: MyHomeComponent },
-//   { path: 'about', component: MyAboutComponent },
-//   { path: 'counter', component: MyCounterComponent },
-//   {
-// ]
+const routes: Routes = [
+  { path: 'home', component: MyHomeComponent },
+  { path: 'about', component: MyAboutComponent },
+]
 @NgModule({
   declarations: [
     AppComponent,
     MyGenieName,
     MySignupFormComponent,
     MyExperiencePointsComponent,
+    MyHomeComponent,
+    MyAboutComponent,
   ],
   imports: [
     BrowserModule,
