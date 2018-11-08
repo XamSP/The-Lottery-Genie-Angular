@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { Router } from '@angular/router';
 
 @Component({
   selector: 'app-my-home',
@@ -7,9 +8,16 @@ import { Component, OnInit } from '@angular/core';
 })
 export class MyHomeComponent implements OnInit {
 
-  constructor() { }
+  title = 'The-Lottery-Genie-Angular';
+
+  constructor(private router: Router) { }
+
 
   ngOnInit() {
+  }
+
+  goToHome() {
+    this.router.navigate(['/home']);
   }
 
 }
