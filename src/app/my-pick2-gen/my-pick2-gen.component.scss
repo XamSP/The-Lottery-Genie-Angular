@@ -1,0 +1,100 @@
+#Pick-2-Number-Gen-Total-Container {
+    background-color: rgb(183, 220, 255);
+    border: 2px;
+    border-style: solid;
+    border-color: black;
+    padding: 1%;
+    margin: 1%;
+  }
+  #Pick-2-Game-Area {
+    width: 70%;
+    height: 50%;
+    background-color: rgb(255, 209, 230);
+    border: 2px;
+    border-style: solid;
+    padding: 1%;
+    margin: 1%;
+  }
+  .Pick-2-Card {
+    padding: 1%;
+    margin: 1%;
+    background-color: white;
+    border: 2px;
+    border-style: solid;
+    border-color: black;
+    width: 15%;
+    height: 40%;
+    font-size: 40px;
+  }
+  
+  #numbersPlayedAreaPick2 {
+    border: 2px;
+    border-style: solid;
+    padding: 1%;
+    margin: 1%;
+    background-color: rgb(136, 154, 255);
+  }
+  
+  #Pick-2-Card-Container {
+    display: flex;
+    justify-content: center;
+  }
+  
+  #Pick2Rules {
+    background-color: rgb(183, 255, 239);
+    border: 2px;
+    border-style: solid;
+    border-color: black;
+    padding: 1%;
+    margin: 1%;
+  }
+  
+  #Pick2-Advice {
+    background-color: rgb(175, 255, 175);
+    width: 30%;
+    border-width: 2px;
+    border-style: solid;
+    padding: 1%;
+    margin: 1%;
+  }
+  
+  #Pick2-Odds {
+    background-color: rgb(255, 248, 146);
+    border-width: 2px;
+    border-style: solid;
+    width: 30%;
+    padding: 1%;
+    margin: 1%;
+  }
+  
+  #Pick2-Odds-Advice-Container {
+    width: 80%;
+    display: flex;
+    flex-wrap: nowrap;
+    background-color: rgb(140, 203, 255);
+    border: 2px;
+    border-style: solid;
+    border-color: black;
+    padding: 1%;
+    margin: 1%;
+  }
+  
+  #Pick-2Played-Numbers-Box {
+    width: 80%;
+    display: flex;
+    flex-wrap: nowrap;
+    background-color: rgb(193, 255, 201);
+    border: 2px;
+    border-style: solid;
+    border-color: black;
+    padding: 1%;
+    margin: 1%;
+  }
+  
+  #pick2SavedNumbers {
+    border: 2px;
+    border-style: solid;
+    padding: 1%;
+    margin: 1%;
+    background-color: rgb(219, 188, 255);
+  }
