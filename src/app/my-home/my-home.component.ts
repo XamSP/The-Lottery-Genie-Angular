@@ -16,8 +16,9 @@ export class MyHomeComponent implements OnInit {
   ngOnInit() {
   }
 
-  goToHome() {
-    this.router.navigate(['/home']);
+  goToAbout() {
+    this.router.navigate(['/about']);
   }
+
 
 }
