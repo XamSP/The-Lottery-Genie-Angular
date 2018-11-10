@@ -19,6 +19,10 @@ import { MyFantasy5GenFLComponent } from './my-fantasy5-gen-fl/my-fantasy5-gen-f
 import { MyFloridaLottoGenComponent } from './my-florida-lotto-gen/my-florida-lotto-gen.component';
 import { MyMegaMillionsGenComponent } from './my-mega-millions-gen/my-mega-millions-gen.component';
 import { MyPowerBallGenComponent } from './my-power-ball-gen/my-power-ball-gen.component';
+import { MyPick3RulesComponent } from './my-pick3-rules/my-pick3-rules.component';
+import { MyPick4RulesComponent } from './my-pick4-rules/my-pick4-rules.component';
+import { MyPick5RulesComponent } from './my-pick5-rules/my-pick5-rules.component';
+import { MyPick2RulesComponent } from './my-pick2-rules/my-pick2-rules.component';
 
 const routes: Routes = [
   { path: '', redirectTo: 'home', pathMatch: 'full' },
@@ -48,6 +52,10 @@ const routes: Routes = [
     MyFloridaLottoGenComponent,
     MyMegaMillionsGenComponent,
     MyPowerBallGenComponent,
+    MyPick3RulesComponent,
+    MyPick4RulesComponent,
+    MyPick5RulesComponent,
+    MyPick2RulesComponent,
   ],
   imports: [
     BrowserModule,
