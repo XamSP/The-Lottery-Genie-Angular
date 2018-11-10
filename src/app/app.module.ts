@@ -13,6 +13,12 @@ import { MyPick2GenComponent } from './my-pick2-gen/my-pick2-gen.component';
 import { MyPick3GenComponent } from './my-pick3-gen/my-pick3-gen.component';
 import { MyPick4GenComponent } from './my-pick4-gen/my-pick4-gen.component';
 import { MyPick5GenComponent } from './my-pick5-gen/my-pick5-gen.component';
+import { MyLuckyMoneyGenComponent } from './my-lucky-money-gen/my-lucky-money-gen.component';
+import { MyCashForLifeGenFLComponent } from './my-cash-for-life-gen-fl/my-cash-for-life-gen-fl.component';
+import { MyFantasy5GenFLComponent } from './my-fantasy5-gen-fl/my-fantasy5-gen-fl.component';
+import { MyFloridaLottoGenComponent } from './my-florida-lotto-gen/my-florida-lotto-gen.component';
+import { MyMegaMillionsGenComponent } from './my-mega-millions-gen/my-mega-millions-gen.component';
+import { MyPowerBallGenComponent } from './my-power-ball-gen/my-power-ball-gen.component';
 
 const routes: Routes = [
   { path: '', redirectTo: 'home', pathMatch: 'full' },
@@ -36,6 +42,12 @@ const routes: Routes = [
     MyPick3GenComponent,
     MyPick4GenComponent,
     MyPick5GenComponent,
+    MyLuckyMoneyGenComponent,
+    MyCashForLifeGenFLComponent,
+    MyFantasy5GenFLComponent,
+    MyFloridaLottoGenComponent,
+    MyMegaMillionsGenComponent,
+    MyPowerBallGenComponent,
   ],
   imports: [
     BrowserModule,
