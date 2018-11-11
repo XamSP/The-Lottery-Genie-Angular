@@ -28,6 +28,7 @@ import { MyPowerBallRulesComponent } from './Games/Game-Rules/my-power-ball-rule
 import { MyMegaMillionsRulesComponent } from './Games/Game-Rules/my-mega-millions-rules/my-mega-millions-rules.component';
 import { MyLuckyMoneyRulesComponent } from './Games/Game-Rules/my-lucky-money-rules/my-lucky-money-rules.component';
 import { MyCashForLifeRulesComponent } from './Games/Game-Rules/my-cash-for-life-rules/my-cash-for-life-rules.component';
+import { Fantsy5RulesComponent } from './Games/Game-Rules/fantsy5-rules/fantsy5-rules.component';
 
 const routes: Routes = [
   { path: '', redirectTo: 'home', pathMatch: 'full' },
@@ -66,6 +67,7 @@ const routes: Routes = [
     MyMegaMillionsRulesComponent,
     MyLuckyMoneyRulesComponent,
     MyCashForLifeRulesComponent,
+    Fantsy5RulesComponent,
   ],
   imports: [
     BrowserModule,
