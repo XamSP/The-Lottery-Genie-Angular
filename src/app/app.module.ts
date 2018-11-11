@@ -9,20 +9,20 @@ import { MyExperiencePointsComponent } from './my-experience-points/my-experienc
 import { RouterModule, Routes } from '@angular/router';
 import { MyHomeComponent } from './my-home/my-home.component';
 import { MyAboutComponent } from './my-about/my-about.component';
-import { MyPick2GenComponent } from './my-pick2-gen/my-pick2-gen.component';
-import { MyPick3GenComponent } from './my-pick3-gen/my-pick3-gen.component';
-import { MyPick4GenComponent } from './my-pick4-gen/my-pick4-gen.component';
-import { MyPick5GenComponent } from './my-pick5-gen/my-pick5-gen.component';
-import { MyLuckyMoneyGenComponent } from './my-lucky-money-gen/my-lucky-money-gen.component';
-import { MyCashForLifeGenFLComponent } from './my-cash-for-life-gen-fl/my-cash-for-life-gen-fl.component';
-import { MyFantasy5GenFLComponent } from './my-fantasy5-gen-fl/my-fantasy5-gen-fl.component';
-import { MyFloridaLottoGenComponent } from './my-florida-lotto-gen/my-florida-lotto-gen.component';
-import { MyMegaMillionsGenComponent } from './my-mega-millions-gen/my-mega-millions-gen.component';
-import { MyPowerBallGenComponent } from './my-power-ball-gen/my-power-ball-gen.component';
-import { MyPick3RulesComponent } from './my-pick3-rules/my-pick3-rules.component';
-import { MyPick4RulesComponent } from './my-pick4-rules/my-pick4-rules.component';
-import { MyPick5RulesComponent } from './my-pick5-rules/my-pick5-rules.component';
-import { MyPick2RulesComponent } from './my-pick2-rules/my-pick2-rules.component';
+import { MyPick2GenComponent } from './Games/my-pick2-gen/my-pick2-gen.component';
+import { MyPick3GenComponent } from './Games/my-pick3-gen/my-pick3-gen.component';
+import { MyPick4GenComponent } from './Games/my-pick4-gen/my-pick4-gen.component';
+import { MyPick5GenComponent } from './Games/my-pick5-gen/my-pick5-gen.component';
+import { MyLuckyMoneyGenComponent } from './Games/my-lucky-money-gen/my-lucky-money-gen.component';
+import { MyCashForLifeGenFLComponent } from './Games//my-cash-for-life-gen-fl/my-cash-for-life-gen-fl.component';
+import { MyFantasy5GenFLComponent } from './Games/my-fantasy5-gen-fl/my-fantasy5-gen-fl.component';
+import { MyFloridaLottoGenComponent } from './Games/my-florida-lotto-gen/my-florida-lotto-gen.component';
+import { MyMegaMillionsGenComponent } from './Games/my-mega-millions-gen/my-mega-millions-gen.component';
+import { MyPowerBallGenComponent } from './Games/my-power-ball-gen/my-power-ball-gen.component';
+import { MyPick3RulesComponent } from './Games/Game-Rules/my-pick3-rules/my-pick3-rules.component';
+import { MyPick4RulesComponent } from './Games/Game-Rules/my-pick4-rules/my-pick4-rules.component';
+import { MyPick5RulesComponent } from './Games/Game-Rules//my-pick5-rules/my-pick5-rules.component';
+import { MyPick2RulesComponent } from './Games/Game-Rules/my-pick2-rules/my-pick2-rules.component';
 
 const routes: Routes = [
   { path: '', redirectTo: 'home', pathMatch: 'full' },
