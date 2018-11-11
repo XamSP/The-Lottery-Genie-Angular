@@ -23,6 +23,8 @@ import { MyPick3RulesComponent } from './Games/Game-Rules/my-pick3-rules/my-pick
 import { MyPick4RulesComponent } from './Games/Game-Rules/my-pick4-rules/my-pick4-rules.component';
 import { MyPick5RulesComponent } from './Games/Game-Rules//my-pick5-rules/my-pick5-rules.component';
 import { MyPick2RulesComponent } from './Games/Game-Rules/my-pick2-rules/my-pick2-rules.component';
+import { MyFLLottoRulesComponent } from './Games/Game-Rules/my-fl-lotto-rules/my-fl-lotto-rules.component';
+import { MyPowerBallRulesComponent } from './Games/Game-Rules/my-power-ball-rules/my-power-ball-rules.component';
 
 const routes: Routes = [
   { path: '', redirectTo: 'home', pathMatch: 'full' },
@@ -56,6 +58,8 @@ const routes: Routes = [
     MyPick4RulesComponent,
     MyPick5RulesComponent,
     MyPick2RulesComponent,
+    MyFLLottoRulesComponent,
+    MyPowerBallRulesComponent,
   ],
   imports: [
     BrowserModule,
