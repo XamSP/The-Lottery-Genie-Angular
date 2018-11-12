@@ -38,7 +38,13 @@ const routes: Routes = [
   { path: 'pick2Gen', component: MyPick2GenComponent },
   { path: 'pick3Gen', component: MyPick3GenComponent },
   { path: 'pick4Gen', component: MyPick4GenComponent },
-  { path: 'pick5Gen', component: MyPick5GenComponent }
+  { path: 'pick5Gen', component: MyPick5GenComponent },
+  { path: 'MyFantasy5GenFLComponent', component: MyFantasy5GenFLComponent },
+  { path: 'MyCashForLifeGenFLComponent', component: MyCashForLifeGenFLComponent },
+  { path: 'MyLuckyMoneyGenComponent', component: MyLuckyMoneyGenComponent },
+  { path: 'MyMegaMillionsGenComponent', component: MyMegaMillionsGenComponent },
+  { path: 'MyPowerBallGenComponent', component: MyPowerBallGenComponent },
+  { path: 'MyFloridaLottoGenComponent', component: MyFloridaLottoGenComponent },
 ]
 @NgModule({
   declarations: [
