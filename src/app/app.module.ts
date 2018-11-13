@@ -36,6 +36,9 @@ const routes: Routes = [
   { path: 'about', component: MyAboutComponent },
   { path: 'signup', component: MySignupFormComponent },
   { path: 'pick2Gen', component: MyPick2GenComponent },
+  // children: [
+  //   path: 'Pick2Rules', component: MyPick2RulesComponent
+  // ] },
   { path: 'pick3Gen', component: MyPick3GenComponent },
   { path: 'pick4Gen', component: MyPick4GenComponent },
   { path: 'pick5Gen', component: MyPick5GenComponent },
