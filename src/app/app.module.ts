@@ -4,14 +4,16 @@ import { NgModule } from '@angular/core';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { FormsModule } from '@angular/forms';
-
+import { HttpModule } from '@angular/http';
 // routes
-import { RouterModule, Routes } from '@angular/router';
+import { RouterModule } from '@angular/router';
+import { routes } from './app.routing'
 // services
 
+import { AuthService } from './services/auth.service';
 // components 
 import { MyGenieName } from './my-genie-name/my-genie-name.component';
-import { MySignupFormComponent } from './my-signup-form/my-signup-form.component';
+import { MySignupFormComponent } from './auth/my-signup-form/my-signup-form.component';
 import { MyExperiencePointsComponent } from './my-experience-points/my-experience-points.component';
 
 import { MyHomeComponent } from './my-home/my-home.component';
@@ -42,26 +44,7 @@ import { MyCashForLifeRulesComponent } from './Games/Game-Rules/my-cash-for-life
 import { Fantsy5RulesComponent } from './Games/Game-Rules/fantsy5-rules/fantsy5-rules.component';
 import { MyDashBoardComponent } from './my-dash-board/my-dash-board.component';
 
-const routes: Routes = [
-  { path: '', redirectTo: 'home', pathMatch: 'full' },
-  { path: 'home', component: MyHomeComponent },
-  { path: 'dashBoard', component: MyDashBoardComponent },
-  { path: 'about', component: MyAboutComponent },
-  { path: 'signup', component: MySignupFormComponent },
-  { path: 'pick2Gen', component: MyPick2GenComponent },
-  // children: [
-  //   path: 'Pick2Rules', component: MyPick2RulesComponent
-  // ] },
-  { path: 'pick3Gen', component: MyPick3GenComponent },
-  { path: 'pick4Gen', component: MyPick4GenComponent },
-  { path: 'pick5Gen', component: MyPick5GenComponent },
-  { path: 'MyFantasy5GenFLComponent', component: MyFantasy5GenFLComponent },
-  { path: 'MyCashForLifeGenFLComponent', component: MyCashForLifeGenFLComponent },
-  { path: 'MyLuckyMoneyGenComponent', component: MyLuckyMoneyGenComponent },
-  { path: 'MyMegaMillionsGenComponent', component: MyMegaMillionsGenComponent },
-  { path: 'MyPowerBallGenComponent', component: MyPowerBallGenComponent },
-  { path: 'MyFloridaLottoGenComponent', component: MyFloridaLottoGenComponent },
-]
+
 @NgModule({
   declarations: [
     AppComponent,
@@ -97,9 +80,10 @@ const routes: Routes = [
     FormsModule,
     AppRoutingModule,
     RouterModule.forRoot(routes),
-    FormsModule
+    FormsModule,
+    HttpModule
   ],
-  providers: [],
+  providers: [AuthService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
