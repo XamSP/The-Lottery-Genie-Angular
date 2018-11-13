@@ -29,10 +29,12 @@ import { MyMegaMillionsRulesComponent } from './Games/Game-Rules/my-mega-million
 import { MyLuckyMoneyRulesComponent } from './Games/Game-Rules/my-lucky-money-rules/my-lucky-money-rules.component';
 import { MyCashForLifeRulesComponent } from './Games/Game-Rules/my-cash-for-life-rules/my-cash-for-life-rules.component';
 import { Fantsy5RulesComponent } from './Games/Game-Rules/fantsy5-rules/fantsy5-rules.component';
+import { MyDashBoardComponent } from './my-dash-board/my-dash-board.component';
 
 const routes: Routes = [
   { path: '', redirectTo: 'home', pathMatch: 'full' },
   { path: 'home', component: MyHomeComponent },
+  { path: 'dashBoard', component: MyDashBoardComponent },
   { path: 'about', component: MyAboutComponent },
   { path: 'signup', component: MySignupFormComponent },
   { path: 'pick2Gen', component: MyPick2GenComponent },
@@ -77,6 +79,7 @@ const routes: Routes = [
     MyLuckyMoneyRulesComponent,
     MyCashForLifeRulesComponent,
     Fantsy5RulesComponent,
+    MyDashBoardComponent,
   ],
   imports: [
     BrowserModule,
