@@ -1,14 +1,23 @@
+// Modules
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { FormsModule } from '@angular/forms';
+
+// routes
+import { RouterModule, Routes } from '@angular/router';
+// services
+
+// components 
 import { MyGenieName } from './my-genie-name/my-genie-name.component';
 import { MySignupFormComponent } from './my-signup-form/my-signup-form.component';
 import { MyExperiencePointsComponent } from './my-experience-points/my-experience-points.component';
-import { RouterModule, Routes } from '@angular/router';
+
 import { MyHomeComponent } from './my-home/my-home.component';
 import { MyAboutComponent } from './my-about/my-about.component';
+
+// number generator components
 import { MyPick2GenComponent } from './Games/my-pick2-gen/my-pick2-gen.component';
 import { MyPick3GenComponent } from './Games/my-pick3-gen/my-pick3-gen.component';
 import { MyPick4GenComponent } from './Games/my-pick4-gen/my-pick4-gen.component';
@@ -19,6 +28,8 @@ import { MyFantasy5GenFLComponent } from './Games/my-fantasy5-gen-fl/my-fantasy5
 import { MyFloridaLottoGenComponent } from './Games/my-florida-lotto-gen/my-florida-lotto-gen.component';
 import { MyMegaMillionsGenComponent } from './Games/my-mega-millions-gen/my-mega-millions-gen.component';
 import { MyPowerBallGenComponent } from './Games/my-power-ball-gen/my-power-ball-gen.component';
+
+// game rules and odds components
 import { MyPick3RulesComponent } from './Games/Game-Rules/my-pick3-rules/my-pick3-rules.component';
 import { MyPick4RulesComponent } from './Games/Game-Rules/my-pick4-rules/my-pick4-rules.component';
 import { MyPick5RulesComponent } from './Games/Game-Rules//my-pick5-rules/my-pick5-rules.component';
