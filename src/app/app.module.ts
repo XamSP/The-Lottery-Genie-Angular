@@ -43,6 +43,8 @@ import { MyLuckyMoneyRulesComponent } from './Games/Game-Rules/my-lucky-money-ru
 import { MyCashForLifeRulesComponent } from './Games/Game-Rules/my-cash-for-life-rules/my-cash-for-life-rules.component';
 import { Fantsy5RulesComponent } from './Games/Game-Rules/fantsy5-rules/fantsy5-rules.component';
 import { MyDashBoardComponent } from './my-dash-board/my-dash-board.component';
+import { MyLoginFormComponent } from './auth/my-login-form/my-login-form.component';
+import { MyLogoutComponent } from './auth/my-logout/my-logout.component';
 
 
 @NgModule({
@@ -74,6 +76,8 @@ import { MyDashBoardComponent } from './my-dash-board/my-dash-board.component';
     MyCashForLifeRulesComponent,
     Fantsy5RulesComponent,
     MyDashBoardComponent,
+    MyLoginFormComponent,
+    MyLogoutComponent,
   ],
   imports: [
     BrowserModule,

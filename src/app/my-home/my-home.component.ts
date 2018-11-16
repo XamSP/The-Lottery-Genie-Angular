@@ -20,5 +20,8 @@ export class MyHomeComponent implements OnInit {
     this.router.navigate(['/about']);
   }
 
+  goToLogin() {
+    this.router.navigate(['/login']);
+  }
 
 }

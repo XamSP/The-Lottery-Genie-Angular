@@ -13,7 +13,7 @@ import { MyFantasy5GenFLComponent } from './Games/my-fantasy5-gen-fl/my-fantasy5
 import { MyFloridaLottoGenComponent } from './Games/my-florida-lotto-gen/my-florida-lotto-gen.component';
 import { MyMegaMillionsGenComponent } from './Games/my-mega-millions-gen/my-mega-millions-gen.component';
 import { MyPowerBallGenComponent } from './Games/my-power-ball-gen/my-power-ball-gen.component';
-
+import { MyLoginFormComponent } from './auth/my-login-form/my-login-form.component';
 import { MyDashBoardComponent } from './my-dash-board/my-dash-board.component';
 
 import { MyHomeComponent } from './my-home/my-home.component';
@@ -25,6 +25,7 @@ export const routes: Routes = [
     { path: 'dashBoard', component: MyDashBoardComponent },
     { path: 'about', component: MyAboutComponent },
     { path: 'signup', component: MySignupFormComponent },
+    { path: 'login', component: MyLoginFormComponent },
     { path: 'pick2Gen', component: MyPick2GenComponent },
     { path: 'pick3Gen', component: MyPick3GenComponent },
     { path: 'pick4Gen', component: MyPick4GenComponent },

@@ -12,4 +12,14 @@ export class MyPick2GenComponent implements OnInit {
   ngOnInit() {
   }
 
+  randomGenMaster22() {
+    let print1 = document.getElementById('Pick-2[1]');
+    let print2 = document.getElementById('Pick-2[2]');
+
+
+    let num1 = Math.floor(Math.random() * 10);
+    let num2 = Math.floor(Math.random() * 10);
+
+  }
+
 }
