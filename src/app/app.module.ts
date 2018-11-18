@@ -45,6 +45,7 @@ import { Fantsy5RulesComponent } from './Games/Game-Rules/fantsy5-rules/fantsy5-
 import { MyDashBoardComponent } from './my-dash-board/my-dash-board.component';
 import { MyLoginFormComponent } from './auth/my-login-form/my-login-form.component';
 import { MyLogoutComponent } from './auth/my-logout/my-logout.component';
+import { MyProfileComponent } from './my-profile/my-profile.component';
 
 
 @NgModule({
@@ -78,6 +79,7 @@ import { MyLogoutComponent } from './auth/my-logout/my-logout.component';
     MyDashBoardComponent,
     MyLoginFormComponent,
     MyLogoutComponent,
+    MyProfileComponent,
   ],
   imports: [
     BrowserModule,
