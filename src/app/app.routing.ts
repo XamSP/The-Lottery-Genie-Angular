@@ -36,4 +36,5 @@ export const routes: Routes = [
     { path: 'MyMegaMillionsGenComponent', component: MyMegaMillionsGenComponent },
     { path: 'MyPowerBallGenComponent', component: MyPowerBallGenComponent },
     { path: 'MyFloridaLottoGenComponent', component: MyFloridaLottoGenComponent },
+    { path: '**', redirectTo: '' }
 ]
